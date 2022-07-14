@@ -1,0 +1,14 @@
+!can var/all
+!can data/all
+use lcs_sla1.nc
+set mem/size=50000
+define axis/x=78.125:99.875:0.25/units=degree_east xaxis
+define axis/y=4.125:24.875:0.25/units=degree_north yaxis
+define grid/x=xaxis/y=yaxis my_grid
+
+let sla_new=sla[g=my_grid,t=01-jan-1993:31-dec-2019]
+list/file=lcs_sla25_bob.nc/format=cdf/clob sla_new
+
+can var/all
+can data/all
+
