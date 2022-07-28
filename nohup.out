@@ -1,0 +1,18 @@
+[I 2022-07-21 11:31:18.220 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-07-21 11:31:18.505 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-21 11:31:18.578 LabApp] JupyterLab extension loaded from /home/NCAOR/supriyog/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-21 11:31:18.578 LabApp] JupyterLab application directory is /home/NCAOR/supriyog/anaconda3/share/jupyter/lab
+[I 2022-07-21 11:31:18.581 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-21 11:31:18.586 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-21 11:31:18.586 ServerApp] Serving notebooks from local directory: /home/NCAOR/supriyog/files/p2_Bay_of_bengal_02_hpc
+[I 2022-07-21 11:31:18.586 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2022-07-21 11:31:18.587 ServerApp] http://localhost:8180/lab?token=74f2d2cf8cdb7d7a961704239c79b773849e1b2caf5e6670
+[I 2022-07-21 11:31:18.587 ServerApp]  or http://127.0.0.1:8180/lab?token=74f2d2cf8cdb7d7a961704239c79b773849e1b2caf5e6670
+[I 2022-07-21 11:31:18.587 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2022-07-21 11:31:18.592 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/NCAOR/supriyog/.local/share/jupyter/runtime/jpserver-196484-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8180/lab?token=74f2d2cf8cdb7d7a961704239c79b773849e1b2caf5e6670
+     or http://127.0.0.1:8180/lab?token=74f2d2cf8cdb7d7a961704239c79b773849e1b2caf5e6670
