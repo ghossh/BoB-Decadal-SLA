@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/NCAOR/supriyog/files/p2_Bay_of_bengal_02_hpc/datasets/data_create.py", line 102, in <module>
+    BoB_LCSBI_low_low.to_netcdf('./filtered/BoB_LCSBI_low.nc')
+NameError: name 'BoB_LCSBI_low_low' is not defined. Did you mean: 'BoB_LCSBI_low'?
+Traceback (most recent call last):
+  File "/home/NCAOR/supriyog/files/p2_Bay_of_bengal_02_hpc/datasets/data_create.py", line 102, in <module>
+    BoB_LCSBI_low.to_netcdf('./filtered/BoB_LCSBI_low.nc')
+NameError: name 'BoB_LCSBI_low' is not defined. Did you mean: 'BoB_LCSBI'?
+Traceback (most recent call last):
+  File "/home/NCAOR/supriyog/files/p2_Bay_of_bengal_02_hpc/datasets/data_create.py", line 102, in <module>
+    BoB_LCSBI_low.to_netcdf('./filtered/BoB_LCSBI_low.nc')
+NameError: name 'BoB_LCSBI_low' is not defined. Did you mean: 'BoB_LCSBI'?
