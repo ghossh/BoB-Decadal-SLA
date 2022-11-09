@@ -104,3 +104,12 @@ BoB_LCSEB_low.to_netcdf('./filtered/BoB_LCSEB_low.nc')
 BoB_LCSWB_low.to_netcdf('./filtered/BoB_LCSWB_low.nc')
 BoB_LCSEIO_low.to_netcdf('./filtered/BoB_LCSEIO_low.nc')
 
+
+BoB_oscar=xr.open_mfdataset('/home/NCAOR/supriyog/raw_data/oscar_data/oscar_data_93_20_new.nc').sel(lat=slice(4,25),lon=slice(78,100))
+tim=pd.date_range("1-1-1993", periods=len(BoB_oscar.time))
+tim_da = xr.DataArray(tim,[('time',tim)])
+BoB_oscar['time']=tim_da
+
+u_low=filter_data(BoB_oscar.u,'u_low')
+v_low=filter_data(BoB_oscar.v,'v_low')
+BoB_oscar_low=xr.merge([u_low,v_low])
