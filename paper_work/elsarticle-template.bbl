@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{moore1990excitation}
+D.~W. Moore, J.~P. McCreary~Jr, Excitation of intermediate-frequency equatorial
+  waves at a western ocean boundary: With application to observations from the
+  indian ocean, Journal of Geophysical Research: Oceans 95~(C4) (1990)
+  5219--5231.
+
+\bibitem{sindhu2007improved}
+B.~Sindhu, I.~Suresh, A.~Unnikrishnan, N.~Bhatkar, S.~Neetu, G.~Michael,
+  Improved bathymetric datasets for the shallow water regions in the indian
+  ocean, Journal of Earth System Science 116~(3) (2007) 261--274.
+
+\bibitem{hersbach2020era5}
+H.~Hersbach, B.~Bell, P.~Berrisford, S.~Hirahara, A.~Hor{\'a}nyi,
+  J.~Mu{\~n}oz-Sabater, J.~Nicolas, C.~Peubey, R.~Radu, D.~Schepers, et~al.,
+  The era5 global reanalysis, Quarterly Journal of the Royal Meteorological
+  Society 146~(730) (2020) 1999--2049.
+
+\bibitem{mccreary1996dynamics}
+J.~McCreary, W.~Han, D.~Shankar, S.~Shetye, Dynamics of the east india coastal
+  current: 2. numerical solutions, Journal of Geophysical Research: Oceans
+  101~(C6) (1996) 13993--14010.
+
+\bibitem{mukherjee2017numerical}
+A.~Mukherjee, D.~Shankar, A.~Chatterjee, P.~Vinayachandran, Numerical
+  simulation of the observed near-surface east india coastal current on the
+  continental slope, Climate dynamics 50~(11-12) (2018) 3949--3980.
+
+\bibitem{mukherjee2019signature}
+A.~Mukherjee, B.~K. Kalita, Signature of la ni{\~n}a in interannual variations
+  of the east india coastal current during spring, Climate dynamics 53~(1-2)
+  (2019) 551--568.
+
+\bibitem{shankar2010minima}
+D.~Shankar, S.~Aparna, J.~P. McCreary, I.~Suresh, S.~Neetu, F.~Durand,
+  S.~Shenoi, M.~Al~Saafani, Minima of interannual sea-level variability in the
+  indian ocean, Progress in Oceanography 84~(3-4) (2010) 225--241.
+
+\bibitem{aparna2012signatures}
+S.~Aparna, J.~McCreary, D.~Shankar, P.~Vinayachandran, Signatures of indian
+  ocean dipole and el ni{\~n}o--southern oscillation events in sea level
+  variations in the bay of bengal, Journal of Geophysical Research: Oceans
+  117~(C10).
+
+\end{thebibliography}
