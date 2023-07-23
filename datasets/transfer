@@ -1,0 +1,1 @@
+sshpass -p "Kanti1234#" scp -r filtered unfiltered   arnab@10.119.14.15:/home/NCAOR/arnab/model/LCS/ERA5_output
